@@ -6,6 +6,7 @@ import Pricing from '../components/Pricing'
 import Footer from "./Footer";
 import Costing from "../components/Costing";
 import Section from "../components/HybridProgram";
+import Application from "../components/ScreenShots";
 
 
 const Layout = ({ children }) => {
@@ -15,9 +16,10 @@ const Layout = ({ children }) => {
             <Pricing />
             <AboutUs />
             <Features />
-            <Work />
+            <Application/>
             <Section />
             <Costing />
+            
             <Footer />
         </React.Fragment>
     )
