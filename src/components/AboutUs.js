@@ -17,14 +17,11 @@ const AboutUs = () => {
       <section className="section about" id="about" style={{ backgroundColor: '#FF66C4', color: 'white' }}>
         <Container>
           <Row className="justify-content-center">
-            <div className="sec-hd">
+            <div>
               <span className="heading"></span>
-              {
-                //css class to have a custom heading not the sec-title bring in one line
-              }
               <h1
                 className="display-3 text-center"
-                style={{ color: 'white' , fontSize: '2.5rem' ,  fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}
+                style={{ color: 'white' , fontSize: '2.5rem', marginBottom:'20px',  fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}
               >Beginners Program</h1>
               <span className="heading"></span>
             </div>
