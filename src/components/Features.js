@@ -24,9 +24,14 @@ const Features = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={12}>
-              <div className="sec-hd">
+              <div className='text-center'>
+
                 <span className="heading"></span>
-                <h2 className="sec-title">Fitness & weight loss program</h2>
+                <h2 
+
+                className='text-center display-6'
+                style={{ color: 'black', fontSize: '2.5rem' , marginBottom:'30px', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}
+                >Fitness & weight loss program</h2>
                 <span className="heading"></span>
               </div>
             </Col>
