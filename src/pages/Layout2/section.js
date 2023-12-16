@@ -26,9 +26,11 @@ const section = () => {
         <Container>
           <Row className="align-items-center justify-content-between">
             <Col md={6}>
-              <div className="home-heading">
+              <div>
                 <h3
-                 style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}>
+                
+                 style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif', fontSize: '2.5rem'}}
+                >
                   ONLINE FITNESS PROGRAMS</h3>
                 <h4>Real Programs for Real People</h4>
                 <p className="home-title"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}></p>

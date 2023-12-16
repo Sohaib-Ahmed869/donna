@@ -23,20 +23,13 @@ const work = () => {
         <React.Fragment>
             <section style={{ backgroundColor: '#c7c7c9', color: 'white', padding: '10px' }}>
                 <Container>
-                    <Row>
-                        <div className="text-center">
-                            <h2 className="text-center" style={
-                                {
-                                    color: 'black',
-                                    fontSize: '40px',
-                                    fontWeight: 'bold'
-                                }
-                            }>Hybrid Program</h2>
-                        </div>
-                    </Row>
+                    
                     <Row className="align-items-center">
                         <Col lg={6}>
+                            
                             <div className="work-pra" style={{ color: 'black', fontSize: '20px', marginLeft: '0px' }}>
+
+                                <h1 className="my-4" style={{ color: 'white', fontSize: '2.5rem' ,  fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}>Hybrid Program</h1>
 
                                 <ul className="inline-item">
                                     <li className="list-inline-item" style={{ color: 'black' }}>

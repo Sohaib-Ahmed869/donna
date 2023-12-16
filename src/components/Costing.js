@@ -23,10 +23,12 @@ const Costing = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col lg={12}>
-                            <div className="sec-hd">
-                                <span className="heading"></span>
-                                <h2 className="sec-title">The Cost</h2>
-                                <span className="heading"></span>
+                            <div className='text-center'>
+                                <h2
+                                className='text-center display-6'
+                                style={{ color: 'black', fontSize: '2.5rem' ,  fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}
+
+                                >The Cost</h2>
                             </div>
                             <div className="sec-content">
                                 <p className='text-center'>I don’t believe in locking people in for a set period of time & that is why I run My Fitness & Weight loss, My Live & On-demand Programs and My Hybrid Program as a cancel any time weekly subscription service. My Beginner Program you pay up front so that you are a bit more motivated to do it.</p>

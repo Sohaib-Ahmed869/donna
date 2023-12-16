@@ -11,7 +11,7 @@ const Navbar1 = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-custom fixed-top" style={{ backgroundColor: '#fff' }}>
-        <Container fluid style={{ backgroundColor: '#fff', marginTop: '-40px' }}>
+        <Container fluid style={{ backgroundColor: '#fff', marginTop: '-40px', marginBottom: '40px' }}>
           <Navbar.Brand href="index-1.html" className="logo text-uppercase">
             <img src={logoLight} className="logo-light" alt="" height="100" />
             <img src={logoDark} className="logo-dark" alt="" height="100" />
