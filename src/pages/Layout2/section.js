@@ -33,8 +33,13 @@ const section = () => {
                 >
                   ONLINE FITNESS PROGRAMS</h3>
                 <h4>Real Programs for Real People</h4>
-                <p className="home-title"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}></p>
-                <p className="text-muted"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}>My concept is simple; I show people how to lose weight & get fit with easy-to-follow programs designed for you to do from the comfort of your own home</p>
+                <p className="home-title"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
+                fontSize: '1.2rem'
+              }}></p>
+                <p  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
+                fontSize: '1.2rem',
+                color: 'black'
+              }}>My concept is simple; I show people how to lose weight & get fit with easy-to-follow programs designed for you to do from the comfort of your own home</p>
               </div>
             </Col>
             <Col md={6}>

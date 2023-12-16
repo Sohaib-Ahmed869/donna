@@ -31,7 +31,9 @@ const Costing = () => {
                                 >The Cost</h2>
                             </div>
                             <div className="sec-content">
-                                <p className='text-center'>I don’t believe in locking people in for a set period of time & that is why I run My Fitness & Weight loss, My Live & On-demand Programs and My Hybrid Program as a cancel any time weekly subscription service. My Beginner Program you pay up front so that you are a bit more motivated to do it.</p>
+                                <p
+                                style={{fontSize:'1.1rem'}}
+                                 className='text-center'>I don’t believe in locking people in for a set period of time & that is why I run My Fitness & Weight loss, My Live & On-demand Programs and My Hybrid Program as a cancel any time weekly subscription service. My Beginner Program you pay up front so that you are a bit more motivated to do it.</p>
                             </div>
                         </Col>
                     </Row>

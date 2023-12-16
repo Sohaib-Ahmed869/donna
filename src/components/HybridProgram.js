@@ -33,17 +33,25 @@ const work = () => {
 
                                 <ul className="inline-item">
                                     <li className="list-inline-item" style={{ color: 'black' }}>
-                                        <p>LIVE workout every morning at 6.30 am
+                                        <p
+                                        style={{fontSize:'1.1rem'}}
+                                        >LIVE workout every morning at 6.30 am
                                             If joining me LIVE doesn’t suit you, the class is available on-demand via the web platform.<br></br> Over 500 workouts available at the touch of a button as well as my amazing Run-Walk Podcast.</p>
                                     </li>
                                     <li className="list-inline-item" style={{ color: 'black' }}>
-                                        <p>This program is for people who want to train consistently with the best in the business all from the comfort of their own home.</p>
+                                        <p
+                                        style={{fontSize:'1.1rem'}}
+                                        >This program is for people who want to train consistently with the best in the business all from the comfort of their own home.</p>
                                     </li>
                                     <li className="list-inline-item" style={{ color: 'black' }}>
-                                        <p>You need a fitness mat & a set of dumbbells & a Kettlebell. When you are training a long time with me you can invest in a fitness step and a weighted vest to add additional resistance & challenge.</p>
+                                        <p
+                                        style={{fontSize:'1.1rem'}}
+                                        >You need a fitness mat & a set of dumbbells & a Kettlebell. When you are training a long time with me you can invest in a fitness step and a weighted vest to add additional resistance & challenge.</p>
                                     </li>
                                     <li className="list-inline-item" style={{ color: 'black' }}>
-                                        <p>This program runs all the time so you can start whenever suits you and you are not tied into any contract or committed to any length of time – stay as long as you like</p>
+                                        <p
+                                        style={{fontSize:'1.1rem'}}
+                                        >This program runs all the time so you can start whenever suits you and you are not tied into any contract or committed to any length of time – stay as long as you like</p>
                                     </li>
                                 </ul>
                             </div>
