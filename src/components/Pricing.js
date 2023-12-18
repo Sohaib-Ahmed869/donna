@@ -11,8 +11,11 @@ import img3 from "../assets/images/pricing/3.jpg";
 
 const Pricing = () => {
   const imgStyle = {
-    borderRadius: '15px', // Set the border radius to 5px
+    borderRadius: '15px', // Set the border radius to 15px
+    border: '0px solid #000000', // Add a grey border
+    boxShadow: '10px 13px 14px 2px rgba(0, 0, 0, 0.4)', // Add a box shadow
   };
+
   return (
     <React.Fragment>
       <section className="section pricing" id="pricing">

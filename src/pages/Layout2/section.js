@@ -17,7 +17,7 @@ import img2 from "../../assets/images/testi/ss/imgg2.png"
 const section = () => {
   return (
     <React.Fragment>
-      <section className="home-2 home-slider" id="home">
+      <section className="home-2 home-slider" id="home" style={{ marginTop: '40px'}}>
         <div className="box">
           <div className="wave -one" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
           <div className="wave -two" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>

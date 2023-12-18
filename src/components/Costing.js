@@ -1,55 +1,80 @@
 import React from 'react';
 import {
-    Container,
-    Row,
-    Col
+  Container,
+  Row,
+  Col,
+  Button
 } from 'react-bootstrap';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-import img from "../assets/images/pricing/costing.png";
 
 
-AOS.init({
-    duration: 1800,
-});
+const Pricing = () => {
+  return (
+    <React.Fragment>
+      <section className="section pricing" id="pricing">
+        <Container>
+          <div className="row justify-content-center">
+            <div className="col-lg-12">
+              <div className='text-center' style={{ marginBottom: '20px' }}>
+                <span className="heading"></span>
+                <h2 className="sec-title">Costing</h2>
+                <span className="heading"></span>
+              </div>
+            </div>
+          </div>
+          <Row className="justify-content-center">
+            <Col lg={4} md={6} mt={4}>
+              <div className="pricing-box text-center">
+                <div className="px-4 py-5">
+                  <div className="pricing-icon text-primary">
+                    <h3>6<sup>€</sup></h3>
+                  </div>
+                  <h5 className="my-4 box-heading">Weekly Subscription</h5>
+                  <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
+                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> Cancel Anytime</li>
+                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> 54.99 for three Months</li>
+                  </ul>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} mt={4}>
+              <div className="pricing-box pricing-active text-center">
+                <div className="px-4 py-5">
+                  <div className="pricing-icon text-primary">
+                    <h3>10<sup>€</sup></h3>
+                  </div>
+                  <h5 className="my-4 box-heading">Weekly</h5>
+                  <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
+                    <li className="pricing-item">
+                      <i className="uil uil-check-circle text-primary">
+                      </i>Cancel Anytime</li>
+                    <li className="pricing-item">
+                      <i className="uil uil-check-circle text-primary">
+                      </i>Weekly Subscription</li>
+                  
+                  </ul>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} mt={4}>
+              <div className="pricing-box text-center">
+                <div className="px-4 py-5">
+                  <div className="pricing-icon text-primary">
+                    <h3>30<sup>€</sup></h3>
+                  </div>
+                  <h5 className="my-4 box-heading">5 Weeks</h5>
+                  <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
+                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> Cancel Anytime</li>
+                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> 5 Week Online Program</li>
 
-
-
-const Costing = () => {
-    return (
-        <React.Fragment>
-            <section className="section features" id="features">
-                <Container>
-                    <Row className="justify-content-center">
-                        <Col lg={12}>
-                            <div className='text-center'>
-                                <h2
-                                className='text-center display-6'
-                                style={{ color: 'black', fontSize: '2.5rem' ,  fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif'}}
-
-                                >The Cost</h2>
-                            </div>
-                            <div className="sec-content">
-                                <p
-                                style={{fontSize:'1.1rem'}}
-                                 className='text-center'>I don’t believe in locking people in for a set period of time & that is why I run My Fitness & Weight loss, My Live & On-demand Programs and My Hybrid Program as a cancel any time weekly subscription service. My Beginner Program you pay up front so that you are a bit more motivated to do it.</p>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row className="justify-content-center align-items-center">
-
-                        <Col lg={10}>
-                            <div className="text-center">
-                                <img src={img} className="img-fluid" data-aos="zoom-in" alt="" />
-                            </div>
-                        </Col>
-
-                    </Row>
-                </Container>
-            </section>
-        </React.Fragment>
-    )
+                  </ul>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </React.Fragment>
+  )
 }
 
-export default Costing;
+export default Pricing;
