@@ -81,7 +81,7 @@ const Pricing = () => {
                   <h2>Hybrid</h2>
                   <div className="pricing-icon text-primary">
 
-                    <h3>30<sup>€</sup></h3>
+                    <h3>12<sup>€</sup></h3>
                   </div>
                   <h5 className="my-4 box-heading">5 Weeks</h5>
                   <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
