@@ -24,23 +24,7 @@ const Features = () => {
     'This program has set start dates & set end dates'
   ];
 
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY || window.pageYOffset;
-    const textContainer = document.querySelector('.scrolling-text');
-    const lineHeight = textContainer.clientHeight / scrollingTextArray.length;
-  
-    const newIndex = Math.floor(scrollPosition / lineHeight);
-    setScrollingTextIndex(newIndex);
-  };
-  
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <React.Fragment>
@@ -52,7 +36,7 @@ const Features = () => {
                 <span className="heading"></span>
                 <h2
                   className='text-center display-6'
-                  style={{ color: 'black', fontSize: '2.5rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
+                  style={{ color: 'white', fontSize: '6.5rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
                 >
                   Fitness & weight loss program
                 </h2>
@@ -63,8 +47,8 @@ const Features = () => {
         </Container>
 
         <Container>
-          <Row className="text-center">
-            <Col lg={12}>
+          <Row className="justify-content-center align-items-left">
+            <Col lg={6}>
               <div className="mockup mockup-macbook loaded opened">
                 <div className="part top shadow">
                   <img src={mTop} alt="" className="img-fluid top" />
@@ -79,16 +63,59 @@ const Features = () => {
                 </div>
               </div>
             </Col>
+            <Col lg={6}>
+              <div className="features-box">
+                <div className="features-icon float-start me-2">
+                  <i className="uil uil-globe"></i>
+                </div>
+                <div className="ps-3 ms-5">
+                  <p
+                    style={{ fontSize: '1rem', color: 'white' }}
+                    className="mt-3">5 Week Online Program</p>
+                </div>
+              </div>
+              <div className="features-box mt-5">
+                <div className="features-icon float-start me-2">
+                  <i className="uil uil-user"></i>
+                </div>
+                <div className="ps-3 ms-5">
+                  <p
+                    style={{ fontSize: '1rem', color: 'white' }}
+                    className="mt-3">20 Workouts - Over 5 weeks Cost €30</p>
+                </div>
+              </div>
+              <div className="features-box mt-5">
+                <div className="features-icon float-start me-2">
+                  <i className="uil uil-globe"></i>
+                </div>
+                <div className="ps-3 ms-5">
+                  <p
+                    style={{ fontSize: '1rem', color: 'white' }}
+                    className="mt-3">You can go walking instead of doing my workouts. You need a fitness mat & 2 bottles of water as weights</p>
+                </div>
+              </div>
+              <div className="features-box mt-5">
+                <div className="features-icon float-start me-2">
+                  <i className="uil uil-user"></i>
+                </div>
+                <div className="ps-3 ms-5">
+                  <p
+                    style={{ fontSize: '1rem', color: 'white' }}
+                    className="mt-3">
+                    Workouts start at 10 minutes & build to 20 minutes. You log in at a time that suits you
+                  </p>
+                </div>
+              </div>
+            </Col>
           </Row>
         </Container>
 
         <Container className="scrolling-text-container">
           <Row className="justify-content-center">
             <Col lg={12}>
-              <div className="text-center scrolling-text" style={{ color: 'black', marginTop: '120px' }}>
-                {scrollingTextArray.map((text, index) => (
-                  <p key={index} className={index === scrollingTextIndex ? 'active' : ''}>{text}</p>
-                ))}
+              
+              <div className="text-center" style={{ color: 'black', marginTop: '120px' }}>
+                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary mt-2" style={{ backgroundColor: '#FF66C4', border: 'none', borderRadius: '20px' }}>Join Now</a>
               </div>
             </Col>
           </Row>

@@ -18,30 +18,30 @@ const AboutUs = () => {
 
   const featureStyle = {
     color: 'Black',
-    fontSize: '1.1rem',
+    fontSize: '1.3rem',
   };
   return (
     <React.Fragment>
-      <section className="section about" id="about" style={{ backgroundColor: '#C8C4BF', color: 'white' }}>
+      <section className="section about" id="about" style={{ backgroundColor: '#c9c9c9', color: 'white' }}>
         <Container>
           <Row className="justify-content-center">
             <div>
               <span className="heading"></span>
               <h1
                 className="display-3 text-center"
-                style={{ color: 'white', fontSize: '4.5rem', marginBottom: '20px', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}
+                style={{ color: 'white', fontSize: '6.5rem', marginBottom: '20px', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}
               >Beginners Program</h1>
               <span className="heading"></span>
             </div>
             <div className="sec-content" style={{ margin: '0', padding: '0' }}>
               <p className='text-center'
-                style={{ color: 'white', fontSize: '1.2rem' }}
+                style={{ color: 'white', fontSize: '1.5rem' }}
               >You press play on the video and you copy what I am doing You can go walking instead of doing my workouts You need a fitness mat & 2 bottles of water as weights This program has set start dates & set end dates </p>
             </div>
           </Row>
         </Container>
       </section>
-      <section className="section features" style={{ backgroundColor: '#C8C4bf', color: 'white', marginTop: '-100px' }}>
+      <section className="section features" style={{ backgroundColor: '#c9c9c9', color: 'white', marginTop: '-100px' }}>
       <Container>
 
           <Row className="justify-content-center align-items-center">
@@ -53,6 +53,7 @@ const AboutUs = () => {
                 <div className="pe-3 me-5">
                   <p className="text"
                   style={featureStyle}
+
                   >5 Week Online Program<br></br>20 Workouts - Over 5 Weeks <br></br>Cost 30</p>
                 </div>
               </div>
@@ -102,6 +103,12 @@ const AboutUs = () => {
                 </div>
               </div>
             </Col>
+            <Col lg={12} className="mt-5">
+              <div className="text-center">
+                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary mt-2" style={{ backgroundColor: '#FF66C4', border: 'none', borderRadius:'20px' }}>Join Now</a>
+              </div>
+            </Col>
+            
           </Row>
         </Container>
       </section>

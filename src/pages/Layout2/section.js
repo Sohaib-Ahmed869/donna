@@ -32,9 +32,12 @@ const section = () => {
                  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif', fontSize: '2.5rem'}}
                 >
                   ONLINE FITNESS PROGRAMS</h3>
-                <h4>Real Programs for Real People</h4>
+                <h4
+                  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif', fontSize: '2.2rem'}}
+                >
+                  Real Programs for Real People</h4>
                 <p className="home-title"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
-                fontSize: '1.2rem'
+                fontSize: '1.5rem'
               }}></p>
                 <p  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
                 fontSize: '1.2rem',
