@@ -86,7 +86,7 @@ const Pricing = () => {
                   <h5 className="my-4 box-heading">5 Weeks</h5>
                   <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
                     <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> Cancel Anytime</li>
-                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> 5 Week Online Program</li>
+                    <li className="pricing-item"><i className="uil uil-check-circle text-primary"></i> Weekly Subscription</li>
 
                   </ul>
                 </div>
