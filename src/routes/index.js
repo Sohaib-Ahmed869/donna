@@ -4,7 +4,7 @@ import Layout from '../layout/index';
 import authProtectedRoutes from './allRoutes';
 
 
-const Index = () => {
+const Index = () => {   
     return (
         <React.Fragment>
                 <Routes>

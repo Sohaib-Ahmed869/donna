@@ -24,9 +24,9 @@ const Application = () => {
 
   return (
     <React.Fragment>
-      <section className="section app-slider" id="app" style={{ color: 'black', padding: '40px' }}>
+      <section className="section app-slider" id="app" style={{ color: 'black', padding: '40px' , backgroundColor: '#F5F5F7'}}>
         <Container>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center align-items-center">
           <Col lg={12}>
               <div className='text-center'>
                 <span className="heading"></span>
@@ -37,7 +37,16 @@ const Application = () => {
                 <span className="heading"></span>
               </div>
             </Col>
-            <Col lg={12}>
+            
+            <Col lg={7}>
+              <div className="work-pra" style={{ color: 'black' }}>
+                
+                <p className='text-black' style={{ fontSize: '1.2rem'}}>
+                If you love working out and training hard then this program is for you. LIVE workout every weekday morning at 6.30 am but If joining me LIVE doesn't suit you, the class is available on-demand via the web platform. With over 500 workouts available at the touch of a button as well as my amazing Run-Walk Podcast this program is the best out there. I am a gifted and talented trainer who knows how to push people to their max. This program is for people who want to train consistently with the best in the business all from the comfort of their own home. You need a fitness mat & a set of dumbbells & a Kettlebell for this program. When you are training a long time with me you can invest in a fitness step and a weighted vest to add additional resistance & challenge. This program costs €10 per week that is done as a cancel anytime subscription service and it runs all the time so you can start whenever suits you.
+                </p>
+              </div>
+            </Col>
+            <Col lg={4}>
               <div className='text-center' style={{ marginTop: '50px', position: 'relative' }}>
                 <div className="fream-phone">
                   <Image src={phoneFream} alt="" fluid style={{ height: '400px', width: 'auto', marginBottom:'100px' }} />
@@ -60,7 +69,7 @@ const Application = () => {
                         <div className="app-screenshot-overlayer">
                           <Link className="mfp-image img-fluid" to={phone} title="" > </Link>
                         </div>
-                        <div className="screenshot-img mb-4">
+                        <div className="screenshot-img">
                           <Link to={phone} className="lightbox img-fluid" >
                             <video autoPlay muted controls loop style={{
                               width: '180px', height: '368px',
@@ -79,115 +88,13 @@ const Application = () => {
               </div>
             </Col>
             <Col lg={12}>
-              <div className="work-pra" style={{ color: 'black' }}>
-                <ul className="inline-item">
-                  <li className="list-inline-item">
-                    <p style={{ fontSize: '1.3rem', color: 'black' }}>LIVE workout every morning at 6.30 am
-                      If joining me LIVE doesn’t suit you, the class is available on-demand via the web platform.<br></br> Over 500 workouts available at the touch of a button as well as my amazing Run-Walk Podcast.</p>
-                  </li>
-                  <li className="list-inline-item">
-                    <p style={{ fontSize: '1.3rem', color: 'black' }}>This program is for people who want to train consistently with the best in the business all from the comfort of their own home.</p>
-                  </li>
-                  <li className="list-inline-item">
-                    <p style={{ fontSize: '1.3rem', color: 'black' }}>You need a fitness mat & a set of dumbbells & a Kettlebell. When you are training a long time with me you can invest in a fitness step and a weighted vest to add additional resistance & challenge.</p>
-                  </li>
-                  <li className="list-inline-item">
-                    <p style={{ fontSize: '1.3rem', color: 'black' }}>This program runs all the time so you can start whenever suits you and you are not tied into any contract or committed to any length of time – stay as long as you like</p>
-                  </li>
-                </ul>
-              </div>
-            </Col>
-            
-          </Row>
-
-          <Row>
-
-            <Col lg={12}>
-              <div className="swiper swiper-container swiper-container1">
-                <div className="fream-phone">
-                  <Image src={phoneFream} alt="" fluid style={{ height: '410px', width: 'auto' }} />
-                </div>
-                <div className="swiper-wrapper">
-                  <Swiper
-                    loop={true}
-                    slidesPerView={5}
-                    spaceBetween={50}
-                    centeredSlides={true}
-                    speed={5000}
-                    autoplay={{
-                      delay: 500,
-                      disableOnInteraction: false,
-                    }}
-                    modules={[Autoplay, Navigation]}
-                  >
-                    <SwiperSlide className="swiper-slide border-radius">
-                      <div className="app-screenshot-item text-center d-flex justify-content-center">
-                        <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img1} title="" > </Link>
-                        </div>
-                        <div className="screenshot-img mb-4">
-                          <Link to={img1} className="lightbox img-fluid" >
-                            <Image src={img1} alt="" className="img-fluid" />
-                          </Link>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide border-radius">
-                      <div className="app-screenshot-item text-center d-flex justify-content-center">
-                        <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img2} title=""></Link>
-                        </div>
-                        <div className="screenshot-img mb-4">
-                          <Link to={img2} className="lightbox img-fluid">
-                            <Image src={img2} alt="" className="img-fluid" />
-                          </Link>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide border-radius">
-                      <div className="app-screenshot-item text-center d-flex justify-content-center">
-                        <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img3} title=""></Link>
-                        </div>
-                        <div className="screenshot-img mb-4">
-                          <Link to={img3} className="lightbox img-fluid">
-                            <Image src={img3} alt="" className="img-fluid" />
-                          </Link>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide border-radius">
-                      <div className="app-screenshot-item text-center d-flex justify-content-center">
-                        <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img4} title=""></Link>
-                        </div>
-                        <div className="screenshot-img mb-4">
-                          <Link to={img4} className="lightbox img-fluid">
-                            <Image src={img4} alt="" className="img-fluid" />
-                          </Link>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide border-radius">
-                      <div className="app-screenshot-item text-center d-flex justify-content-center">
-                        <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img5} title=""></Link>
-                        </div>
-                        <div className="screenshot-img mb-4">
-                          <Link to={img5} className="lightbox img-fluid">
-                            <Image src={img5} alt="" className="img-fluid" />
-                          </Link>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-
-
-
-                  </Swiper>
-                </div>
+              <div className="text-center">
+                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary mt-2" style={{ backgroundColor: '#FF66C4', border: 'none', borderRadius:'30px',fontSize:'28px', padding:'10px 60px'
+               }}>Join Now</a>
               </div>
             </Col>
           </Row>
+
         </Container>
       </section>
     </React.Fragment>

@@ -4,12 +4,27 @@ import {
   Row,
   Col,
 } from 'react-bootstrap';
+import { useState } from 'react';
 
 import img1 from "../assets/images/pricing/1.jpg";
 import img2 from "../assets/images/pricing/2.jpg";
 import img3 from "../assets/images/pricing/3.jpg";
 
 const Pricing = () => {
+  const [text, setText] = useState('From Beginner to super-fit I have you covered');
+
+  const textlocation = 300;
+  //if scroll is below the position of this element, change the text
+  const ScrollChange = () => {
+    if (window.scrollY >= textlocation) {
+      setText('3 Amazing Programs, 1 Amazing Trainer');
+    }
+    else {
+      setText('From Beginner to super-fit I have you covered');
+    }
+  }
+
+  window.addEventListener('scroll', ScrollChange);
   const imgStyle = {
     borderRadius: '15px', // Set the border radius to 15px
     border: '0px solid #000000', // Add a grey border
@@ -24,7 +39,7 @@ const Pricing = () => {
             <div className="col-lg-12">
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">From Beginner to super fit I have you covered</h2>
+                <h2 className="sec-title">{text}</h2>
                 <span className="heading"></span>
               </div>
             </div>

@@ -11,7 +11,22 @@
 06.home
 
 *****************************************/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@font-face {
+    font-family: 'NeueMontreal-Regular';
+    src: url('../fonts/NeueMontreal-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Poppins Font - Bold */
+@font-face {
+    font-family: 'NeueMontreal-Bold';
+    src: url('../fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 #style-switcher {
   transition: all 0.4s;
   background: none repeat scroll 0 0 #f8f9fc;
@@ -700,7 +715,7 @@ hr {
   }
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "NeueMontreal-Regular", sans-serif;
   overflow-x: hidden !important;
   color: #17212a;
 }
@@ -717,7 +732,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "NeueMontreal-Bold", sans-serif;
   font-weight: 700;
   line-height: 1.4;
 }

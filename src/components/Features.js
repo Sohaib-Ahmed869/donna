@@ -28,15 +28,15 @@ const Features = () => {
 
   return (
     <React.Fragment>
-      <section className="section about" id="about" style={{ color: 'black', marginTop: '-10px', backgroundColor: '#FF66C4', borderRadius: '15px' }}>
+      <section className="section about justify-content-center align-items-center" id="about" style={{ color: 'black', marginTop: '-10px', backgroundColor: '#FFFFFF', borderRadius: '15px' }}>
         <Container>
-          <Row className="justify-content-center">
+          <Row className="">
             <Col lg={12}>
               <div className='text-center'>
                 <span className="heading"></span>
                 <h2
                   className='text-center display-6'
-                  style={{ color: 'white', fontSize: '6.5rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
+                  style={{ color: 'black', fontSize: '4rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
                 >
                   Fitness & weight loss program
                 </h2>
@@ -47,8 +47,8 @@ const Features = () => {
         </Container>
 
         <Container>
-          <Row className="justify-content-center align-items-left">
-            <Col lg={6}>
+          <Row className="justify-content-center align-items-center mt-5">
+            <Col lg={5}>
               <div className="mockup mockup-macbook loaded opened">
                 <div className="part top shadow">
                   <img src={mTop} alt="" className="img-fluid top" />
@@ -62,64 +62,102 @@ const Features = () => {
                   <img src={mBottom} alt="" className="img-fluid bottom" />
                 </div>
               </div>
+              <Col lg={12} className="mt-5">
+          <div className="text-center">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary" style={{
+              backgroundColor: '#FF66C4', border: 'none', borderRadius: '30px', fontSize: '22px', padding: '10px 60px'
+            }}>Join Now</a>
+          </div>
+        </Col>
             </Col>
+
             <Col lg={6}>
-              <div className="features-box">
-                <div className="features-icon float-start me-2">
-                  <i className="uil uil-globe"></i>
+              <section className="section features" style={{ marginTop: '-80px' }}>
+                <div className="features-box justify-content-center">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-star"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">The best plan, with the best advice all designed to help you get into the best shape of your life</p>
+                  </div>
                 </div>
-                <div className="ps-3 ms-5">
-                  <p
-                    style={{ fontSize: '1rem', color: 'white' }}
-                    className="mt-3">5 Week Online Program</p>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-skip-forward-alt"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">Over 300+ workout videos with me and my amazing Run-walk podcast</p>
+                  </div>
                 </div>
-              </div>
-              <div className="features-box mt-5">
-                <div className="features-icon float-start me-2">
-                  <i className="uil uil-user"></i>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-clock"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">Workouts start at 10 minutes & build to 30 minutes. You log in at a time that suits you & train step by step with Donna in the video</p>
+                  </div>
                 </div>
-                <div className="ps-3 ms-5">
-                  <p
-                    style={{ fontSize: '1rem', color: 'white' }}
-                    className="mt-3">20 Workouts - Over 5 weeks Cost €30</p>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-weight"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">
+                      Calorie Calculator, Calorie Tracker  & Nutritional Advice as well as 100s of recipes.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="features-box mt-5">
-                <div className="features-icon float-start me-2">
-                  <i className="uil uil-globe"></i>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-dumbbell"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">
+                      You need a fitness mat<br></br> & a set of weights.
+                    </p>
+                  </div>
                 </div>
-                <div className="ps-3 ms-5">
-                  <p
-                    style={{ fontSize: '1rem', color: 'white' }}
-                    className="mt-3">You can go walking instead of doing my workouts. You need a fitness mat & 2 bottles of water as weights</p>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-calender"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">
+                      This program runs all the time so you can start whenever suits you.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="features-box mt-5">
-                <div className="features-icon float-start me-2">
-                  <i className="uil uil-user"></i>
+                <div className="features-box mt-3">
+                  <div className="features-icon float-start me-2">
+                    <i className="uil uil-euro"></i>
+                  </div>
+                  <div className="ps-3 ms-5">
+                    <p
+                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      className="mt-3">
+                      €6 cancel any time weekly subscription or   €54.99 per month
+                    </p>
+                  </div>
                 </div>
-                <div className="ps-3 ms-5">
-                  <p
-                    style={{ fontSize: '1rem', color: 'white' }}
-                    className="mt-3">
-                    Workouts start at 10 minutes & build to 20 minutes. You log in at a time that suits you
-                  </p>
-                </div>
-              </div>
+              </section>
             </Col>
           </Row>
+
         </Container>
 
-        <Container className="scrolling-text-container">
-          <Row className="justify-content-center">
-            <Col lg={12}>
-              
-              <div className="text-center" style={{ color: 'black', marginTop: '120px' }}>
-                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary mt-2" style={{ backgroundColor: '#FF66C4', border: 'none', borderRadius: '20px' }}>Join Now</a>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+
       </section>
     </React.Fragment>
   );
