@@ -2313,6 +2313,12 @@ body[data-layout-mode=dark] .title h6 {
     animation: drift 7000ms infinite linear
 }
 
+@media screen and (max-width: 800px) {
+    .home-2 .wave {
+        display: none
+    }
+}
+
 .home-2 .wave.-three {
     animation: drift 7500ms infinite linear;
     position: fixed;
