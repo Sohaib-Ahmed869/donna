@@ -2268,7 +2268,7 @@ body[data-layout-mode=dark] .title h6 {
 .home-2 {
     align-items: center;
     display: flex;
-    min-height: 100vh
+    min-height: 10vh
 }
 
 .home-2 .home-heading h3 {
@@ -2280,10 +2280,9 @@ body[data-layout-mode=dark] .title h6 {
 }
 
 .home-2 .box {
-    position: absolute;
     top: 0;
     transform: rotate(80deg);
-    left: 0
+    left: 0;
 }
 
 .home-2 .box::after {
@@ -2305,8 +2304,8 @@ body[data-layout-mode=dark] .title h6 {
     top: 3%;
     left: 10%;
     background: rgba(101, 111, 224, .3);
-    width: 1500px;
-    height: 1300px;
+    width: 1100px;
+    height: 1100px;
     margin-left: -150px;
     margin-top: -256px;
     transform-origin: 50% 48%;

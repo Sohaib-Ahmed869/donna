@@ -10,6 +10,7 @@ const Navbar1 = () => {
 
   return (
     <React.Fragment>
+      
       <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" className="scrollspy-example-2">
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-light" style={{ backgroundColor: '#fff', paddingTop: '10px' }}>
           <Container fluid style={{ backgroundColor: '#fff'}}>

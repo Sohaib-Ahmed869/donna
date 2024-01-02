@@ -24,8 +24,12 @@ import second from '../assets/images/price.png'
 const work = () => {
     return (
         <React.Fragment>
-            <section style={{ backgroundColor: '#FFFFFF', color: 'white', padding: '10px' }}>
-
+            <section style={{ backgroundColor: '#FFFFFF', color: 'white', padding: '10px' }} className='home-2'>    
+                <div className="box">
+                    <div className="wave -one" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
+                    <div className="wave -two" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
+                    <div className="wave -three" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
+                </div>
                 <Container>
 
                     <Row className="align-items-center features justify-content-center align-items-center">
@@ -38,16 +42,16 @@ const work = () => {
 
                                 <Row className="justify-content-center align-items-center mt-5 text-center">
                                     <Col lg={4}>
-                                        <p style={{ color: 'black', fontSize: '2rem' , lineHeight:'35px'}}>Fitness and Weight<br></br> Loss Program</p>
+                                        <p style={{ color: 'black', fontSize: '2rem', lineHeight: '35px' }}>Fitness and Weight<br></br> Loss Program</p>
                                     </Col>
-                                    
+
                                     <Col lg={4}>
                                         <img src={one} alt="" style={{ width: '100%', height: '100%' }} />
-                                        
+
                                     </Col>
-                                  
+
                                     <Col lg={4}>
-                                        <p style={{ color: 'black', fontSize: '2rem', textAlign:'center', lineHeight:'35px' }}>Live and On-demand Classes Program</p>
+                                        <p style={{ color: 'black', fontSize: '2rem', textAlign: 'center', lineHeight: '35px' }}>Live and On-demand Classes Program</p>
                                     </Col>
                                 </Row>
                             </div>
