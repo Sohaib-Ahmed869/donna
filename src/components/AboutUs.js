@@ -22,15 +22,13 @@ const AboutUs = () => {
         <Container>
           <Row className="justify-content-center">
             <div>
-              <span className="heading"></span>
               <h1
                 className="display-3 text-center"
                 style={{ fontSize: '4.5rem', marginBottom: '20px', fontWeight: 'bold' }}
               >Beginners Program</h1>
-              <span className="heading"></span>
             </div>
             <div className="sec-content" style={{ margin: '0', padding: '0' }}>
-              <p className='text-center'
+              <p className='text-center p-3'
                 style={{ fontSize: '1.3rem' }}
               >For those who are only at the start of their Fitness and Weight Loss Journey. You press play on the video and you copy what I am doing or You can go walking instead of doing my workouts </p>
             </div>

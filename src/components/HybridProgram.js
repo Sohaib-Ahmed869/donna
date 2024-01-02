@@ -36,9 +36,9 @@ const work = () => {
                                 <h1 className="my-4" style={{ color: 'black', fontSize: '3.2rem', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}>Hybrid Program</h1>
                                 <h3 className='sub-title' style={{ color: '#FE75C9', fontSize: '2.2rem', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}>Best of Both</h3>
 
-                                <Row className="justify-content-center align-items-center mt-5">
+                                <Row className="justify-content-center align-items-center mt-5 text-center">
                                     <Col lg={4}>
-                                        <h2 style={{ color: 'black', fontSize: '2.5rem' }}>Fitness and Weight Loss Program</h2>
+                                        <p style={{ color: 'black', fontSize: '2rem' , lineHeight:'35px'}}>Fitness and Weight<br></br> Loss Program</p>
                                     </Col>
                                     
                                     <Col lg={4}>
@@ -47,7 +47,7 @@ const work = () => {
                                     </Col>
                                   
                                     <Col lg={4}>
-                                        <h2 style={{ color: 'black', fontSize: '2.5rem', textAlign:'right' }}>Live and On-demand Classes Program</h2>
+                                        <p style={{ color: 'black', fontSize: '2rem', textAlign:'center', lineHeight:'35px' }}>Live and On-demand Classes Program</p>
                                     </Col>
                                 </Row>
                             </div>

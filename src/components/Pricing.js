@@ -33,30 +33,30 @@ const Pricing = () => {
 
   return (
     <React.Fragment>
-      <section className="section pricing" id="pricing">
+      <section className="pricing" id="pricing">
         <Container>
           <div className="row justify-content-center">
-            <div className="col-lg-12">
-              <div className="sec-hd">
-                <span className="heading"></span>
-                <h2 className="sec-title">{text}</h2>
-                <span className="heading"></span>
+            <div className="col-lg-12 mt-4">
+              <div className='text-center' style={{ marginBottom: '20px' }}>
+
+                <h2>{text}</h2>
+
               </div>
             </div>
           </div>
           <Row className="justify-content-center">
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center mt-4">
                 <img src={img1} alt="" className="img-fluid mx-auto d-block" style={imgStyle} />
               </div>
             </Col>
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box text-center">
-                <img src={img2} alt="" className="img-fluid mx-auto d-block" style={imgStyle} />
+              <div className="pricing-box text-center mt-4">
+                <img src={img2} alt="" className="img-fluid mx-auto d-block " style={imgStyle} />
               </div>
             </Col>
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center mt-4 mb-5">
                 <img src={img3} alt="" className="img-fluid mx-auto d-block" style={imgStyle} />
               </div>
             </Col>

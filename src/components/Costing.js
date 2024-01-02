@@ -10,7 +10,7 @@ import {
 const Pricing = () => {
   return (
     <React.Fragment>
-      <section className="section pricing" id="pricing">
+      <section className="pricing" id="pricing">
         <Container>
           <div className="row justify-content-center">
             <div className="col-lg-12">

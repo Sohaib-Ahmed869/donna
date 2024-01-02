@@ -29,7 +29,7 @@ const section = () => {
                 >
                   ONLINE FITNESS PROGRAMS</h3>
                 <h4
-                  style={{fontSize: '2.2rem',color:'#FE75C9'}}
+                  style={{fontSize: '1.8rem',color:'#FE75C9'}}
                 >
                   Real Programs for Real People</h4>
                 <p className="home-title"  style={{fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
