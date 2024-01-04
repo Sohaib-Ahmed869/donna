@@ -11,16 +11,16 @@ import img2 from "../assets/images/pricing/2.jpg";
 import img3 from "../assets/images/pricing/3.jpg";
 
 const Pricing = () => {
-  const [text, setText] = useState('From Beginner to super-fit I have you covered');
+  const [text, setText] = useState('FROM BEGGINER TO SUPER-FIT I HAVE YOU COVERED');
 
   const textlocation = 300;
   //if scroll is below the position of this element, change the text
   const ScrollChange = () => {
     if (window.scrollY >= textlocation) {
-      setText('3 Amazing Programs, 1 Amazing Trainer');
+      setText('3 AMAZING PROGRAMS, 1 AMAZING TRAINER');
     }
     else {
-      setText('From Beginner to super-fit I have you covered');
+      setText('FROM BEGGINER TO SUPER-FIT I HAVE YOU COVERED');
     }
   }
 
