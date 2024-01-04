@@ -30,10 +30,12 @@ const Application = () => {
           <Col lg={12}>
               <div className='text-center'>
                 <span className="heading"></span>
-                <h2 className="sec-title"
-                  style={{ color: 'black', fontSize: '2.5rem', marginBottom: '30px', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }
-                  }
-                >Live and On-Demand Classes</h2>
+                <div>
+                  <h1
+                    className="display-3 text-center"
+                    style={{ fontSize: '4.8rem', marginBottom: '20px', fontWeight: 'bold' }}
+                  >Live & On-Demand Classes</h1>
+                </div>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -41,7 +43,7 @@ const Application = () => {
             <Col lg={7}>
               <div className="work-pra" style={{ color: 'black' }}>
                 
-                <p className='text-black' style={{ fontSize: '1.2rem'}}>
+                <p className='text-black' style={{ fontSize: '1.2rem', lineHeight: '2' }}>
                 If you love working out and training hard then this program is for you. LIVE workout every weekday morning at 6.30 am but If joining me LIVE doesn't suit you, the class is available on-demand via the web platform. With over 500 workouts available at the touch of a button as well as my amazing Run-Walk Podcast this program is the best out there. I am a gifted and talented trainer who knows how to push people to their max. This program is for people who want to train consistently with the best in the business all from the comfort of their own home. You need a fitness mat & a set of dumbbells & a Kettlebell for this program. When you are training a long time with me you can invest in a fitness step and a weighted vest to add additional resistance & challenge. This program costs €10 per week that is done as a cancel anytime subscription service and it runs all the time so you can start whenever suits you.
                 </p>
               </div>

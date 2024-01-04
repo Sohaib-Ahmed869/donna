@@ -34,12 +34,12 @@ const Features = () => {
             <Col lg={12}>
               <div className='text-center'>
                 <span className="heading"></span>
-                <h2
-                  className='text-center display-6'
-                  style={{ color: 'black', fontSize: '4rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
-                >
-                  Fitness & weight loss program
-                </h2>
+                <div>
+                  <h1
+                    className="display-3 text-center"
+                    style={{ fontSize: '4.8rem', marginBottom: '20px', fontWeight: 'bold', marginTop: '-70px' }}
+                  >Fitness & Weight Loss Program</h1>
+                </div>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -63,12 +63,12 @@ const Features = () => {
                 </div>
               </div>
               <Col lg={12} className="mt-5">
-          <div className="text-center">
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary" style={{
-              backgroundColor: '#FF66C4', border: 'none', borderRadius: '30px', fontSize: '22px', padding: '10px 60px'
-            }}>Join Now</a>
-          </div>
-        </Col>
+                <div className="text-center">
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9Y6YV6M3X5XG" className="btn btn-primary" style={{
+                    backgroundColor: '#FF66C4', border: 'none', borderRadius: '30px', fontSize: '22px', padding: '10px 60px'
+                  }}>Join Now</a>
+                </div>
+              </Col>
             </Col>
 
             <Col lg={6}>
@@ -79,7 +79,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black', lineHeight: '1.5' }}
                       className="mt-3">The best plan, with the best advice all designed to help you get into the best shape of your life</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black' , lineHeight: '1.5'}}
                       className="mt-3">Over 300+ workout videos with me and my amazing Run-walk podcast</p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black' , lineHeight: '1.5'}}
                       className="mt-3">Workouts start at 10 minutes & build to 30 minutes. You log in at a time that suits you & train step by step with Donna in the video</p>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black', lineHeight: '1.5' }}
                       className="mt-3">
                       Calorie Calculator, Calorie Tracker  & Nutritional Advice as well as 100s of recipes.
                     </p>
@@ -121,7 +121,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black', lineHeight: '1.5' }}
                       className="mt-3">
                       You need a fitness mat<br></br> & a set of weights.
                     </p>
@@ -133,7 +133,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black', lineHeight: '1.5' }}
                       className="mt-3">
                       This program runs all the time so you can start whenever suits you.
                     </p>
@@ -145,7 +145,7 @@ const Features = () => {
                   </div>
                   <div className="ps-3 ms-5">
                     <p
-                      style={{ fontSize: '1.2rem', color: 'black' }}
+                      style={{ fontSize: '1.2rem', color: 'black', lineHeight: '1.5' }}
                       className="mt-3">
                       €6 cancel any time weekly subscription or   €54.99 per month
                     </p>

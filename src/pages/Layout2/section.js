@@ -24,8 +24,9 @@ const section = () => {
             <Col md={7}>
               <div>
                 <h3
+                className='mb-5'
                 
-                 style={{fontSize: '2.5rem', color:'#FE75C9' }}
+                 style={{fontSize: '2.8rem', color:'#FE75C9' }}
                 >
                   ONLINE FITNESS PROGRAMS</h3>
                 <h4
@@ -36,7 +37,8 @@ const section = () => {
                 fontSize: '1.5rem'
               }}></p>
                 <p  style={{
-                fontSize: '1.2rem',
+                fontSize: '1.4rem',
+                lineHeight: '1.5',
                 color: 'black'
               }}>My concept is simple; I show people how to lose weight & get fit with easy-to-follow programs designed for you to do from the comfort of your own home</p>
               </div>

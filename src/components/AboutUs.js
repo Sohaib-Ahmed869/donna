@@ -14,7 +14,8 @@ const AboutUs = () => {
 
   const featureStyle = {
     color: 'Black',
-    fontSize: '1.3rem',
+    fontSize: '1.4rem',
+    lineHeight: '1.4',
   };
   return (
     <React.Fragment>
@@ -24,7 +25,7 @@ const AboutUs = () => {
             <div>
               <h1
                 className="display-3 text-center"
-                style={{ fontSize: '4.5rem', marginBottom: '20px', fontWeight: 'bold' }}
+                style={{ fontSize: '4.8rem', marginBottom: '20px', fontWeight: 'bold', marginTop:'-70px' }}
               >Beginners Program</h1>
             </div>
             <div className="sec-content" style={{ margin: '0', padding: '0' }}>
@@ -35,7 +36,7 @@ const AboutUs = () => {
           </Row>
         </Container>
       </section>
-      <section className="section features" style={{ backgroundColor: '#f5f5f7', color: 'white', marginTop: '-100px' }}>
+      <section className="section features" style={{ backgroundColor: '#f5f5f7', color: 'white', marginTop: '-150px' }}>
       <Container>
 
           <Row className="justify-content-center align-items-center">
@@ -44,7 +45,7 @@ const AboutUs = () => {
                 <div className="features-icon float-start ms-2">
                   <i className="uil uil-swimmer"></i>
                 </div>
-                <div className="me-5">
+                <div className="me-6">
                   <p className="text"
                   style={featureStyle}
 
@@ -59,7 +60,7 @@ const AboutUs = () => {
                 }
                   <i className="uil uil-clock"></i>
                 </div>
-                <div className="me-5">
+                <div className="me-6">
                   <p className="mt-3"
                   style={featureStyle}
                   >Workouts start at 10 minutes & build to 20 minutes.</p>
@@ -69,7 +70,7 @@ const AboutUs = () => {
                 <div className="features-icon float-start ms-2">
                   <i className="uil uil-globe"></i>
                 </div>
-                <div className="me-5 mt-5">
+                <div className="me-6 mt-5">
                   <p className="text"
                   style={featureStyle}
 
@@ -80,7 +81,7 @@ const AboutUs = () => {
                 <div className="features-icon float-start ms-2">
                   <i className="uil uil-dumbbell"></i>
                 </div>
-                <div className="me-5 mt-5">
+                <div className="me-6 mt-5">
                   <p className="text"
                   style={featureStyle}
 

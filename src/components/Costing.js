@@ -10,13 +10,13 @@ import {
 const Pricing = () => {
   return (
     <React.Fragment>
-      <section className="pricing" id="pricing">
+      <section className="pricing" id="pricing" style={{marginTop:'-130px' ,marginBottom:'100px'}}>
         <Container>
           <div className="row justify-content-center">
             <div className="col-lg-12">
               <div className='text-center' style={{ marginBottom: '20px' }}>
                 <span className="heading"></span>
-                <h2 className="sec-title"
+                <h2
                   style={{ color: 'Black', fontSize: '5rem', marginBottom: '30px', fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif' }}
                 >Costing</h2>
                 <span className="heading"></span>
@@ -25,7 +25,7 @@ const Pricing = () => {
           </div>
           <Row className="justify-content-center">
           <Col lg={3} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center" style={{height:'350px'}}>
                 <div className="px-4 py-5">
                 <h2>Beginner</h2>
                   <div className="pricing-icon text-primary">
@@ -41,7 +41,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col lg={3} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center" style={{height:'350px'}}>
                 <div className="px-4 py-5">
                 <h4>Fitness & Weight</h4>
                   <div className="pricing-icon text-primary">
@@ -56,7 +56,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col lg={3} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center" style={{height:'350px'}}>
                 <div className="px-4 py-5">
                 <h4>Live & On-Demand</h4>
                   <div className="pricing-icon text-primary">
@@ -77,7 +77,7 @@ const Pricing = () => {
             </Col>
            
             <Col lg={3} md={6} mt={4}>
-              <div className="pricing-box text-center">
+              <div className="pricing-box text-center" style={{height:'350px'}}>
                 <div className="px-4 py-5">
                   <h2>Hybrid</h2>
                   <div className="pricing-icon text-primary">

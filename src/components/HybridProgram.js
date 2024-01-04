@@ -25,11 +25,6 @@ const work = () => {
     return (
         <React.Fragment>
             <section style={{ backgroundColor: '#FFFFFF', color: 'white', padding: '10px' }} className='home-2'>    
-                <div className="box">
-                    <div className="wave -one" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
-                    <div className="wave -two" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
-                    <div className="wave -three" style={{ color: '#FF66C4', backgroundColor: '#FF66C4' }}></div>
-                </div>
                 <Container>
 
                     <Row className="align-items-center features justify-content-center align-items-center">
@@ -38,11 +33,11 @@ const work = () => {
                             <div className="work-pra" style={{ color: 'black', fontSize: '20px', marginLeft: '0px' }}>
 
                                 <h1 className="my-4" style={{ color: 'black', fontSize: '3.2rem', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}>Hybrid Program</h1>
-                                <h3 className='sub-title' style={{ color: '#FE75C9', fontSize: '2.2rem', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}>Best of Both</h3>
+                                <h3 className='sub-title' style={{marginBottom:'-80px', color: '#FE75C9', fontSize: '2.2rem', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif' }}>Best of Both</h3>
 
                                 <Row className="justify-content-center align-items-center mt-5 text-center">
                                     <Col lg={4}>
-                                        <p style={{ color: 'black', fontSize: '2rem', lineHeight: '35px' }}>Fitness and Weight<br></br> Loss Program</p>
+                                        <p style={{ color: 'black', fontSize: '2.5rem', lineHeight: '50px' }}>Fitness and Weight<br></br> Loss Program</p>
                                     </Col>
 
                                     <Col lg={4}>
@@ -51,13 +46,13 @@ const work = () => {
                                     </Col>
 
                                     <Col lg={4}>
-                                        <p style={{ color: 'black', fontSize: '2rem', textAlign: 'center', lineHeight: '35px' }}>Live and On-demand Classes Program</p>
+                                        <p style={{ color: 'black', fontSize: '2.5rem', textAlign: 'center', lineHeight: '50px' }}>Live and On-demand Classes Program</p>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <div className='float-end' style={{ marginTop: '50px' }}>
+                            <div className='float-end' style={{ marginTop: '-50px' }}>
                                 <img src={second} alt="" style={{ width: '100%', height: '100%' }} />
                             </div>
                         </Col>
